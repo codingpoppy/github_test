@@ -1,0 +1,29 @@
+## access C drive (Ubuntu)
+# $ cd /mnt/c/...
+
+## vi editor: https://www.tutorialspoint.com/unix/unix-vi-editor.htm
+# enter insert mode: i
+# exit insert mode: Esc
+# quit: :q
+# quit without saving: :q!
+# save: :w
+# quit and save: :wq
+# search work: Ecs, /<pattern>, n(next) N (previous)
+
+## unzip
+
+## zip
+
+## rename a underscores
+rename -f 's/_//' *
+
+## remove multiple files
+rm *<pattern>
+
+## check gpu version on server: try one of the following
+nvidia-smi
+nvcc --version
+
+## copy directories
+cp -R <source folder> <destination folder>
+example: cp -R ndims_15/results/SNF ndims_30/results/, will end up with ndims_30/results/SNF
